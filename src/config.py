@@ -1,0 +1,4 @@
+import os
+
+BOT_TOKEN = "8212616865:AAFuAolhVCeA6ZZC1FmGIOJl-durcxXWUAs"
+
