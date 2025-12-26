@@ -5,11 +5,13 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from datetime import date, timedelta
 
-from config import BOT_TOKEN
-from database import init_db, add_task, get_tasks
-from scheduler import start_scheduler, add_reminder
-from keyboards import main_keyboard, date_keyboard, time_keyboard
-from states import AddTask
+from src.config import BOT_TOKEN
+from src.database import init_db
+from src.database import add_task
+from src.database import get_tasks
+from src.scheduler import start_scheduler, add_reminder
+from src.keyboards import main_keyboard, date_keyboard, time_keyboard
+from src.states import AddTask
 
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
