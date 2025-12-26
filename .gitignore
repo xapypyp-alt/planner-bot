@@ -1,4 +1,6 @@
 __pycache__/
 .env
 tasks.db# created by virtualenv automatically
+.venv
+.idea
 
