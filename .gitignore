@@ -3,4 +3,5 @@ __pycache__/
 tasks.db# created by virtualenv automatically
 .venv
 .idea
-
+venv/
+idea/
